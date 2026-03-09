@@ -2,7 +2,7 @@
 # try also 'default' to start simple
 theme: seriph
 # Cosmology/Cosmic Microwave Background (CMB) cover image
-background: /cmb_presentation.gif
+background: /cmb_smooth_fluctuation.gif
 # some information about your slides (markdown enabled)
 title: cosmology
 info: |
