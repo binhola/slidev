@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# CMB Polarization Analysis Presentation
 
-To start the slide show:
+This is a presentation on the end-to-end pipeline for CMB polarization analysis — from time-ordered data to cosmology, with a view toward simulation-based inference.
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Visit https://binhola.github.io/slidev to view the presentation.
