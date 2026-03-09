@@ -1,9 +1,8 @@
 ---
 # try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+# Cosmology/Cosmic Microwave Background (CMB) cover image
+background: /cmb_smooth_fluctuation.gif
 # some information about your slides (markdown enabled)
 title: cosmology
 info: |
@@ -24,9 +23,8 @@ mdc: true
 duration: 35min
 ---
 
-# This is a test
-
-I want to have this as my presentation
+## End-to-End Pipeline for CMB Polarization Analysis 
+#### From Time-Ordered Data to Cosmology, with a View Toward Simulation-Based Inference
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
