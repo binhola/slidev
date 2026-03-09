@@ -2,7 +2,7 @@
 # try also 'default' to start simple
 theme: seriph
 # Cosmology/Cosmic Microwave Background (CMB) cover image
-background: /cmb_smooth_fluctuation.gif
+background: https://docs.openspaceproject.com/latest/_images/planck_cmb.png
 # some information about your slides (markdown enabled)
 title: cosmology
 info: |
@@ -23,9 +23,16 @@ mdc: true
 duration: 35min
 ---
 
-## End-to-End Pipeline for CMB Polarization Analysis 
-#### From Time-Ordered Data to Cosmology, with a View Toward Simulation-Based Inference
+# **End-to-End Pipeline for**
+# **CMB Polarization Analysis** 
 
+
+### **From Time-Ordered Data to Cosmology**
+### **with a view toward Simulation-Based Inference**
+
+*NGUYEN Thi Yen Binh*
+
+Supervisors: *Josquin ERRARD* & Radek STOMPOR
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
 </div>
@@ -39,15 +46,12 @@ duration: 35min
   </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
 transition: fade-out
+background: true
 ---
 
-# What is Slidev?
+# Education
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -87,6 +91,7 @@ Here is another comment.
 ---
 transition: slide-up
 level: 2
+background: true
 ---
 
 # Navigation
@@ -114,6 +119,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 ---
 layout: two-cols
 layoutClass: gap-16
+background: true
 ---
 
 # Table of contents
@@ -133,6 +139,7 @@ The title will be inferred from your slide content, or you can override it with 
 ---
 layout: image-right
 image: https://cover.sli.dev
+background: true
 ---
 
 # Code
@@ -185,6 +192,7 @@ Notes can also sync with clicks
 
 ---
 level: 2
+background: true
 ---
 
 # Shiki Magic Move
@@ -301,6 +309,7 @@ Also, HTML elements are valid:
 
 ---
 class: px-20
+background: true
 ---
 
 # Themes
@@ -551,6 +560,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 foo: bar
 dragPos:
   square: 691,32,167,_,-16
+background: true
 ---
 
 # Draggable Elements
@@ -595,6 +605,7 @@ Double-click on the draggable elements to edit their positions.
 ---
 src: ./pages/imported-slides.md
 hide: false
+background: true
 ---
 
 ---
